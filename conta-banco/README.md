@@ -1,18 +1,36 @@
-## Getting Started
+# 💰 Conta Banco - Desafio DIO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto desenvolvido como parte do **bootcamp da Digital Innovation One (DIO)**.  
+Este desafio propõe a simulação de uma conta bancária utilizando **Java** e entrada de dados pelo **terminal/console**.
 
-## Folder Structure
+## 🧠 Objetivo do Desafio
 
-The workspace contains two folders by default, where:
+Exercitar os conceitos básicos de sintaxe da linguagem Java, como:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Declaração de variáveis
+- Tipos primitivos (`int`, `String`, `double`)
+- Entrada de dados com `Scanner`
+- Concatenação e formatação de strings
+- Saída de dados no console
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 📌 Funcionalidades
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+O programa solicita que o usuário informe:
 
-## Dependency Management
+- Número da agência (ex: `067-8`)
+- Número da conta (ex: `1021`)
+- Nome do cliente (ex: `MARIO ANDRADE`)
+- Saldo inicial (ex: `237.48`)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Após o preenchimento, é exibida uma mensagem formatada com os dados da conta.
+
+## 💻 Exemplo de execução
+
+```bash
+Por favor, digite o número da Agência: 067-8
+Por favor, digite o número da Conta: 1021
+Por favor, digite o nome do Cliente: MARIO ANDRADE
+Por favor, digite o saldo inicial: 237.48
+
+Olá MARIO ANDRADE, obrigado por criar uma conta em nosso banco, 
+sua agência é 067-8, conta 1021 e seu saldo 237.48 já está disponível para saque.
